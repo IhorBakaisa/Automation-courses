@@ -20,12 +20,3 @@ class BankAccount:
 
     def get_balance(self):
         return self.balance
-
-# Приклад використання
-if __name__ == "__main__":
-    account = BankAccount("Іван Іванов", 1000)
-    print("Початковий баланс:", account.get_balance())
-    account.deposit(500)
-    print("Після депозиту:", account.get_balance())
-    account.withdraw(300)
-    print("Після зняття:", account.get_balance())
