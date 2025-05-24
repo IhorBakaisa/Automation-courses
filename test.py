@@ -4,4 +4,4 @@ def test_my():
 def test_my2():
     assert 2 == 2
 
-print("Hello")
+print("Hello2")
