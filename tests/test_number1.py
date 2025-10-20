@@ -16,7 +16,7 @@ def test_number2():
     assert 5+3 == 8
 
 def test_number345():
-        assert 5 + 3 == 8
+        assert 5 + 3 == 82
 
 def test_number3():
     assert (4-2)/2 == 1
